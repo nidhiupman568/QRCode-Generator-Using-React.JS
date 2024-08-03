@@ -23,7 +23,7 @@ function handleClick() {
 
 return ( 
 	<div className="App"> 
-	<h1>QR Code Generator</h1> 
+	<h1>QR Code Generator - By Nidhi Upman</h1> 
 	<div className="input-box"> 
 		<div className="gen"> 
 		<input type="text" onChange={ 
