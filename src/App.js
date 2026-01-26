@@ -12,7 +12,7 @@ const [qrCode, setQrCode] = useState("");
 // changes the input 
 useEffect(() => { 
 	setQrCode 
-(`http://api.qrserver.com/v1/create-qr-code/?data=${word}!&size=${size}x${size}&bgcolor=${bgColor}`); 
+(`http://api.qrserver.com/v1/create-qr-code/?data=${word}&size=${size}x${size}&bgcolor=${bgColor}`); 
 }, [word, size, bgColor]); 
 
 // Updating the input word when user 
